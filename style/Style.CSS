@@ -14,6 +14,25 @@ body
     align-items: center;
     min-height:100vh;
 }
+#toggle
+{
+    display: none;
+}
+#label_toggle
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    color: #081921;
+    cursor: pointer;
+}
+.dark
+{
+    background-color: #333;
+    color: #f0f0f0;
+    transition: all 1.5s ease;
+}
 .container
 {
     position: relative;
