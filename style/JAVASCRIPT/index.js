@@ -12,3 +12,17 @@ toggle.addEventListener('change',(event)=>{
     }
     
 })
+
+function cambiar_fondo() {
+    var elemento = document.getElementById ('left_s');
+    var style = getComputedStyle (elemento);
+    var bgColor =style.backgroundColor;
+
+    if(bgColor == 'rgb(255, 255, 255)'){
+        document.getElementById('left_s').style.backgroundColor = '#808080'
+    }
+    else
+    {
+        document.getElementById('left_s').style.background = '#fff'
+    }
+}

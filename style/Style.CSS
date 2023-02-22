@@ -1,4 +1,4 @@
-@import url();
+
 *
 {
     margin: 0;
@@ -21,12 +21,32 @@ body
 #label_toggle
 {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 2em;
+    top: 2.2rem;
+    right: 2.2rem;
+    display: flex;
+    font-size: 1.2rem;
     color: #081921;
     cursor: pointer;
 }
+.Generate_PDF
+{
+    display:none;
+    position: absolute;
+    top: 2.2rem;
+    left: 0;
+    font-size: 1.2rem;
+    color: var(--tex-color);
+    cursor: pointer;
+}
+.Generate_PDF:hover
+{
+    color: var(--title-color);
+}
+.Generate_PDF
+{
+    display: inline-block;
+}
+
 .dark
 {
     background-color: #333;
@@ -209,13 +229,13 @@ p
 .about .box .year_company h5
 {
     text-transform: uppercase;
-    color: #848c90;
+    color: #14242c;
     font-weight: 600;
 }
 .about .box .text h4
 {
     text-transform: uppercase;
-    color: #2a7da2;
+    color: #072431;
     font-size: 16px;
 }
 .skills .box
@@ -230,7 +250,7 @@ p
 .skills .box h4
 {
     text-transform: uppercase;
-    color: #848c99;
+    color: #14242c;
     font-weight: 500;
 }
 .skills .box .percent
@@ -279,6 +299,7 @@ p
     }
 
 }
+
 
 @media (max-width: 600px)
 {
