@@ -28,24 +28,6 @@ body
     color: #081921;
     cursor: pointer;
 }
-.Generate_PDF
-{
-    display:none;
-    position: absolute;
-    top: 2.2rem;
-    left: 0;
-    font-size: 1.2rem;
-    color: var(--tex-color);
-    cursor: pointer;
-}
-.Generate_PDF:hover
-{
-    color: var(--title-color);
-}
-.Generate_PDF
-{
-    display: inline-block;
-}
 
 .dark
 {
@@ -137,7 +119,6 @@ body
     margin: 10px 0;
     cursor: pointer;
 }
-/** tiempo de video "12:04" **/
 .contacInfo ul li .icon
 {
     display: inline-block;
@@ -188,8 +169,6 @@ body
     height: 100%;
     background: #03a9f4;
 }
-
-/** tiempo de video 17:54**/
 .container .right_side
 {
     position: relative;
