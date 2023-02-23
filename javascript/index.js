@@ -5,10 +5,10 @@ toggle.addEventListener('change',(event)=>{
     document.body.classList.toggle('dark');
     if (checked==true){
         label_toggle.innerHTML='<i class="bi bi-sun"></i>';
-        label_toggle.style.color="yellow";
+        label_toggle.style.color="white";
     }else{
         label_toggle.innerHTML='<i class="bi bi-moon"></i>';
-    label_toggle.stykle.color="#081921";
+    label_toggle.stykle.color="white";
     }
     
 })
