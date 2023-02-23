@@ -5,53 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum html </title>
-    <!--agregue un link para iconos al pedo, no funciona-->
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="style/Style.CSS">
 </head>
-<body>
+<body  class="scale-cv">
     <div class="container">
       <div class="left_side">
+
+        <LAbel for="toggle" id="label_toggle" onclick="cambiar_fondo();"><i class="bi bi-moon-fill"></i></LAbel>
+<input type="checkbox" id="toggle"> 
+<div class="contenedor">
+
+
+    
+
           <div class="profileText">
         
               <div class="imgbx">
-                   <!-- falta imagen(foto) -->
-                   <img src="img.jpg">
+                   
+                   <img src="https://media.licdn.com/dms/image/D4D35AQG6MQDodH83_Q/profile-framedphoto-shrink_200_200/0/1671926754301?e=1677711600&v=beta&t=uNkFeeb_Hb568LmzBCDCQFQsZCVknyOt3LEFfyJngyw">
                </div>
         
-                               <!-- hay un Br que no tengo idea de que es???-->
-                <h2>vello Braian <br><span>Semi Señor</span></h2>
+                               
+                <h2>vello Braian <br><span>Pogramador junior</span></h2>
           </div>
 
           <div class="contacInfo">
            <h3 class="title">Contacto</h3>
            <ul>
             <li>
-                <!--apartir de aca todo, entre ico y span tengo que poner <i class= enlace> 
-                    un icono-->
-                <span class="Icon"><i class="fa fa-phone" style="font-size:24px"></i></span>
+                
+                <span class="Icon"><i class="bi bi-telephone-fill"></i></span>
                 <span class="Text"> +1 234 5678 900</span>
             </li>
             <li>
-                <span class="Icon"></span>
-                <span class="Text"> vellobraian@correoelectronico.com</span>
+                <span class="Icon"><i class="bi bi-envelope-at-fill"></i></span>
+                <span class="Text">  vello.braian@e-mail.com</span>
             </li>
             <li>
-                <span class="Icon"></span>
-                <span class="Text"> mi sitio web</span>
+                <span class="Icon"><i class="bi bi-search"></i></span>
+                <span class="Text">  Mi sitio web</span>
             </li>
             <li>
-                <span class="Icon"></span>
+                <span class="Icon"><i class="bi bi-linkedin"></i></span>
                 <span class="Text"> www.linkedin.com/braian</span>
             </li>
             <li>
-                <span class="Icon"></span>
+                <span class="Icon"><i class="bi bi-house-door-fill"></i></span>
                 <span class="Text"> Gral. pacheco, Tigre, Buenos aires</span>
             </li>
            </ul>
-           <!--cerre el div de "contacInfo aca abajo"-->
+          
           </div>
-        <!--movi el div que estaba cerrando lefs side hasta despues de educacion y funciono-->
+        
 
 
 
@@ -78,7 +85,7 @@
 
            </ul>
            
-           <!--aca esta el div((1),-->
+           
         </div>
 
           <div class="contacInfo lenguaje">
@@ -104,26 +111,23 @@
             </li>
         </ul>
        </div>
-   <!--el div(1) de lefd side lo dejo aca para encerrar lenguaje, quedo bien-->
+   
+    </div>
+
     </div>
 
 
-<!--yo no quiero discriminar perooo! me parece que el div de abajo no cierra nada, menos pareja que yo-->
-        <!--aca iba el div que me encerraba todo y no estaba nada dentro de la hoja en blanco-->
-    
-        <div class="right_side">
-<!--inicio de modo oscuro-->
-<LAbel for="toggle" id="label_toggle"><i class="bi bi-moon-fill"></i></LAbel>
-<input type="checkbox" id="toggle"> 
-<div class="contenedor">
+
+        <div class="right_side" id="left_s">
+
+
 
             <div class="about">
                 <h2 class="title2"> perfil</h2>
-                <p> Este el el Curriculum vitae que esta realizado para un proyecto de Argentina Programa 4.0
-                    donde yo estoy usando datos personales como mi nombre y mi foto pero no explayo mucho.<br><br>
-                    Me gusta mucho el mundo de la programacion y en este ultimo tiempo con estas oportunidades
-                    para adentrarme en la programacion mas desde adentro me termina convenciendo que es por 
-                    donde quiero ir.</p>
+                <p> Este es el Currículum vitae que está realizado para un proyecto de Argentina Programa 4.0
+                    donde estoy usando datos personales como mi nombre y mi foto, pero me no explayo mucho.<br><br>
+                    Me gusta el mundo de la programación y en este último tiempo, teniendo la oportunidad
+                    de aprender mas sobre programación, cada vez descubro que es por donde quiero ir.</p>
             </div>
             <div class="about">
                 <h2 class="title2"> Experiencia</h2>
@@ -202,12 +206,30 @@
             </div>
 
             <div class="about interest">
-                <h2 class="title2">Interest</h2>
+                <h2 class="title2">Intereses</h2>
                 <ul>
-                    <li><i class="fa fa-home"></i>Gamming</li>
-                    <li><i class="fa fa-search"></i>Singing</li>
-                    <li> <i class="fa fa-cloud"></i>Reading</li>
-                    <li><i class="fa fa-trash"></i>Coocking</li>
+                    <li><i class="bi bi-controller"></i>  Jugar video juegos  
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </li>
+                    <li><i class="bi bi-book"></i>  Leer libros  
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </li>
+                    <li><i class="bi bi-cup-hot"></i>  Beber cafe  
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </li>
+                    <li><i class="bi bi-bicycle"></i>  Andar en bicicleta  
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </li>
                 </ul>
                 </div>
         </div>
@@ -216,7 +238,7 @@
 
 </div>
 
-<script src="javascript/index.js"></script>
+<script src="style/javascript/index.js"></script>
 
 </body>
 </html>
